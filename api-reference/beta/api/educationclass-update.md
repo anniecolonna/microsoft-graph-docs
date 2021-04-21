@@ -1,5 +1,5 @@
 ---
-title: "Update educationclass properties"
+title: "Update educationClass"
 description: "Update the properties of a class."
 author: "mmast-msft"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "education"
 doc_type: apiPageType
 ---
 
-# Update educationclass properties
+# Update educationClass
 
 Namespace: microsoft.graph
 
@@ -38,7 +38,7 @@ PATCH /education/classes/{id}
 | Header        | Value                     |
 | :------------ | :------------------------ |
 | Authorization | Bearer {token}. Required. |
-| Content-Type  | application/json          |
+| Content-Type  | application/json. Required. |
 
 ## Request body
 
@@ -108,8 +108,7 @@ Content-length: 224
 
 The following is an example of the response.
 
-> **Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
-
+> **Note:** The response object shown here might be shortened for readability. 
 <!-- {
   "blockType": "response",
   "truncated": true,
